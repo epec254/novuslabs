@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="w-mod-js wf-varelaround-n4-active wf-lemon-n4-active wf-active">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Novus Labs</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="static/novus-labs.css" rel="stylesheet" type="text/css">
+  <script src="static/webfont.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./static/novus-labs-2.css" media="all">
+
+
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Varela Round:400", "Lemon:regular"]
+      }
+    });
+
+
+    function getImagesByAlt(alt) {
+      var allImages = document.getElementsByTagName("img");
+      var images = [];
+      for (var i = 0, len = allImages.length; i < len; ++i) {
+        if (allImages[i].alt == alt) {
+          images.push(allImages[i]);
+        }
+      }
+      return images;
+    }
+
+    // var myImage = getImagesByAlt("Myimage")[0];
+
+
+
+    function hide() {
+      logos = getImagesByAlt("www.000webhost.com");
+      if (logos.length >= 1) {
+        logos[0].style.visibility = 'hidden';
+      }
+
+    }
+  </script>
+
+
+
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body onload="hide()">
+  <div class="header-section">
+    <div class="container w-container"><img src="static/logo-cropped.png" loading="lazy" sizes="(max-width: 767px) 95vw, (max-width: 991px) 570px, 682px"
+        alt="">
+      <p class="subtitle">Turning ideas into extraordinary businesses</p>
+      <div class="buttonHolder">
+        <input onclick="location.href='subscribe.html';" type="submit" id="subscribeButton" value="Keep me informed" class="button w-button"></input>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6 w-col-small-6">
+          <div class="copyright">© 2021 Novus Labs, Inc. All right reserved.&nbsp;</div>
+        </div>
+        <div class="align-right w-col w-col-6 w-col-small-6"><a href="mailto:hello@novuslabs.ai" class="social-btn w-inline-block"><img src="static/email-icon.svg" alt=""></a></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
