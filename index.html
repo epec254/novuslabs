@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="w-mod-js wf-varelaround-n4-active wf-lemon-n4-active wf-active">
-
+<!-- Hello!!  Glad to see you looked at the source code.  Nothing amazing here, but it gets job done, so to speak.  
+  Intruiged to learn more about what we are doing?  See https://plan.novuslabs.ai -- if you want to join us, schedule time with me!  
+-->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Novus Labs</title>
@@ -62,7 +64,13 @@
         alt="">
       <p class="subtitle">Turning ideas into extraordinary businesses</p>
       <div class="buttonHolder">
-        <input onclick="location.href='subscribe.html';" type="submit" id="subscribeButton" value="Keep me informed" class="button w-button"></input>
+        <!-- <input onclick="location.href='subscribe.html';" type="submit" id="subscribeButton" value="Keep me informed" class="button w-button"></input> -->
+        <!-- Calendly link widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/eric_peter?hide_gdpr_banner=1'});return false;">Chat with us.</a> -->
+        <input onclick="Calendly.initPopupWidget({url: 'https://calendly.com/eric_peter?hide_gdpr_banner=1'});return false;" type="submit" id="subscribeButton" value="Chat with us" class="button w-button"></input>
+        <!-- Calendly link widget end -->
       </div>
 
     </div>
