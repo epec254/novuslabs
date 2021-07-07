@@ -2245,17 +2245,17 @@ p {
 
 .button {
   /* display: block; */
-  width: 32%;
-  height: 54px;
+  width: 20%;
+  height: 30px;
   padding: 4px 29px;
   float: none;
   border-radius: 4px;
-  background-color: #c96c47;
+  background-color: #27187E;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.11), inset 0 0 0 1px hsla(0, 0%, 100%, 0.08), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.16), inset 0 -44px 38px -25px rgba(0, 0, 0, 0.09);
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   text-align: center;
   text-decoration: none;
@@ -2263,7 +2263,7 @@ p {
 }
 
 .button:hover {
-  background-color: #e66f40;
+  background-color: #2196F3;
 }
 
 .button:active {
@@ -2272,7 +2272,7 @@ p {
 }
 
 .subtitle {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 34px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24), 0 1px 0 rgba(0, 0, 0, 0.25);
   margin-top: 15px;
